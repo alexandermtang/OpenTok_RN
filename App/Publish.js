@@ -48,6 +48,7 @@ export default class Publish extends Component {
           <Publisher
             sessionId={sessionId}
             style={{ backgroundColor: 'black', height: '50%', width: '50%' }}
+            mute={true}
             onPublishStart={() => {
               console.log('started');
             }}
